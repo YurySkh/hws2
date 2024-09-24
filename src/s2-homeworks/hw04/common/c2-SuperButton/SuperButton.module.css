@@ -8,15 +8,21 @@
 }
 
 .default {
+	background-color: blue;
+	color: white;
 }
 
 .red {
+	background-color: red;
+	color: white;
+
 }
 
 .default:hover {
 }
 
 .red:hover {
+	color: red;
 }
 
 .secondary:hover {
@@ -30,6 +36,7 @@
 }
 
 .red:active {
+	color: red;
 }
 
 .button:disabled {
