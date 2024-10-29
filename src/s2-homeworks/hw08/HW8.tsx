@@ -6,10 +6,12 @@ import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import User from './User'
 
 /*
-* 1 - дописать типы и логику (сортировка по имени, фильтрация по совершеннолетию) homeWorkReducer, проверить тестом
-* 2 - дописать компоненту User
+* ❌✅
+* 1 - дописать типы и логику (сортировка по имени, фильтрация по совершеннолетию) homeWorkReducer, проверить тестом ✅
+* 2 - дописать компоненту User  ✅
 * 3 - сделать стили в соответствии с дизайном
-* */
+* 
+*/
 
 export type UserType = {
     _id: number
@@ -20,11 +22,11 @@ export type UserType = {
 const initialPeople: UserType[] = [
     // студенты могут поменять имя/возраст/количество объектов, _id должны быть целочисленные
     {_id: 0, name: 'Кот', age: 3},
-    {_id: 1, name: 'Александр', age: 66},
+    {_id: 1, name: 'Алекс', age: 66},
     {_id: 2, name: 'Коля', age: 16},
-    {_id: 3, name: 'Виктор', age: 44},
-    {_id: 4, name: 'Дмитрий', age: 40},
-    {_id: 5, name: 'Ирина', age: 55},
+    {_id: 3, name: 'Витя', age: 44},
+    {_id: 4, name: 'Дима', age: 40},
+    {_id: 5, name: 'Ира', age: 55},
 ]
 
 const HW8 = () => {
