@@ -1,13 +1,12 @@
-import React, {useState} from 'react'
-import s2 from '../../s1-main/App.module.css'
-import s from './HW13.module.css'
-import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import axios from 'axios'
+import { useState } from 'react'
+import s2 from '../../s1-main/App.module.css'
+import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
+import s from './HW13.module.css'
 import success200 from './images/200.svg'
 import error400 from './images/400.svg'
 import error500 from './images/500.svg'
 import errorUnknown from './images/error.svg'
-import { log } from 'console'
 
 /*
 * 1 - дописать функцию send
